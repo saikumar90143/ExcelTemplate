@@ -1,0 +1,59 @@
+.import {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+input[type="file"] {
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: 8px;
+    font-size: 17px;
+    color: #b8b8b8;
+}
+
+.button-wrap {
+    position: relative;
+}
+
+.button,
+button {
+    display: inline-block;
+    padding-block: 12px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #cfc913;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 250px;
+    color: #fff;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    outline: none;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #1a1919;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+h4 {
+    margin-top: 2rem;
+    text-align: center;
+}

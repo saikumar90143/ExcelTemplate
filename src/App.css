@@ -1,0 +1,10 @@
+.App {
+    max-width: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aqua;
+    gap: 1.5em;
+    padding-block: 2em;
+    margin-top: 2rem;
+}
